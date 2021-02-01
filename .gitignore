@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ui/pdfworker-ui/node_modules
+ui/pdfworker-ui//.pnp
+ui/pdfworker-ui/.pnp.js
+
+# testing
+ui/pdfworker-ui/coverage
+
+# production
+ui/pdfworker-ui/build
+
+# misc
+.DS_Store
+ui/pdfworker-ui/.env.local
+ui/pdfworker-ui/.env.development.local
+ui/pdfworker-ui/.env.test.local
+ui/pdfworker-ui/.env.production.local
+
+ui/pdfworker-ui/npm-debug.log*
+ui/pdfworker-ui/yarn-debug.log*
+ui/pdfworker-ui/yarn-error.log*
